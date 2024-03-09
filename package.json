@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog website using node, express and ejs with styling using bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jill-gosrani/Blogging-website.git"
+  },
+  "author": "Jill Gosrani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jill-gosrani/Blogging-website/issues"
+  },
+  "homepage": "https://github.com/jill-gosrani/Blogging-website#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
