@@ -11,10 +11,15 @@
     <div class="container">
         <form>
             <label>Name: </label>
-            <input type="text" name="userName">
+            <input type="text" name="userName" default="jill">
             <label>password: </label>
-            <input type="password" name="password">
-            <input type="submit" name="submit">
+            <input type="password" name="password"default=>
+            <input type="button" name="login" value="login">
+            
+        </form>
+        <br>
+        <form action="new" method="post">
+            <input type="submit" value="post" name="submit">
         </form>
     </div>
     <%- include("partials/footer.ejs") %>
