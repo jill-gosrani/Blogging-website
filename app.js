@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000 || process.env.PORT;
 
 
-app.use(express.static('public'));
+app.use(express.static('public'))
 
 app.use(expressEjsLayouts);
 app.set('layout', './layout/main');
